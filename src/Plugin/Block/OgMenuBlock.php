@@ -246,7 +246,7 @@ class OgMenuBlock extends BlockBase implements ContainerFactoryPluginInterface, 
    */
   public function getCacheTags() {
     $tags = parent::getCacheTags();
-    return Cache::mergeTags($tags, ['ogmenu_instance']);
+    return Cache::mergeTags($tags, [$this->getMenuName()]);
   }
 
   /**
