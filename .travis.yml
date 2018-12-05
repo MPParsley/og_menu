@@ -2,11 +2,13 @@ language: php
 sudo: false
 
 php:
+  - 7.0
+  - 7.1
   - 7.2
 
 env:
+  - DRUPAL_CORE=8.6.x
   - DRUPAL_CORE=8.7.x
-  - DRUPAL_CORE=8.8.x
 
 mysql:
   database: og_menu
