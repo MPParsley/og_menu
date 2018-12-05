@@ -41,7 +41,6 @@ use Drupal\og_menu\OgMenuInstanceInterface;
  *     "id" = "id",
  *     "bundle" = "type",
  *     "uuid" = "uuid",
- *     "uid" = "user_id",
  *     "langcode" = "langcode",
  *   },
  *   links = {
